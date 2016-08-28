@@ -1,0 +1,25 @@
+{
+  "name": "vlib.js",
+  "version": "1.0.0",
+  "description": "Javascript validation library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PageOnline/vlib.js.git"
+  },
+  "keywords": [
+    "validation"
+  ],
+  "author": "ondrejbarta.xyz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PageOnline/vlib.js/issues"
+  },
+  "homepage": "https://github.com/PageOnline/vlib.js#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0"
+  }
+}
