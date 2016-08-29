@@ -4,7 +4,9 @@
   "description": "Javascript validation library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-c": "./node_modules/.bin/babel src/ErrorWrapper.js src/Validator.js src/IPAddressValidator.js src/PhoneNumberValidator.js src/EmailValidator.js src/vlib.js --out-file build/vlib.js --source-maps",
+    "babel-cw": "./node_modules/.bin/babel src/ErrorWrapper.js src/Validator.js src/IPAddressValidator.js src/PhoneNumberValidator.js src/EmailValidator.js src/vlib.js --out-file build/vlib.js --source-maps --watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,15 @@
   },
   "homepage": "https://github.com/PageOnline/vlib.js#readme",
   "devDependencies": {
-    "babel-preset-es2015": "^6.14.0"
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-es2017": "^6.14.0",
+    "babel-preset-latest": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-1": "^6.13.0",
+    "babel-preset-stage-2": "^6.13.0",
+    "babel-preset-stage-3": "^6.11.0"
   }
 }
