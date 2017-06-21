@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel-c": "./node_modules/.bin/babel src/ErrorWrapper.js src/Validator.js src/IPAddressValidator.js src/PhoneNumberValidator.js src/EmailValidator.js src/vlib.js --out-file build/vlib.js --source-maps",
-    "babel-cw": "./node_modules/.bin/babel src/ErrorWrapper.js src/Validator.js src/IPAddressValidator.js src/PhoneNumberValidator.js src/EmailValidator.js src/vlib.js --out-file build/vlib.js --source-maps --watch"
+    "babel-c": "./node_modules/.bin/babel src/ErrorWrapper.js src/Validator.js src/IPAddressValidator.js src/PhoneNumberValidator.js src/EmailValidator.js src/vlib.js --out-file dist/vlib.js --source-maps",
+    "babel-cw": "./node_modules/.bin/babel src/ErrorWrapper.js src/Validator.js src/IPAddressValidator.js src/PhoneNumberValidator.js src/EmailValidator.js src/vlib.js --out-file dist/vlib.js --source-maps --watch"
   },
   "repository": {
     "type": "git",
