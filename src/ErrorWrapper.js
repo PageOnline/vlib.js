@@ -14,8 +14,5 @@ class ExtendableError extends Error {
   }
 }
 
-class MyError extends ExtendableError {
-  constructor(m) {
-    super(m);
-  }
+export default class MyError extends ExtendableError {
 }

@@ -1,3 +1,17 @@
-# vlib.js
+# vlibjs
 
-I needed a validation library that would validate and extract some information from data. I made this for (jack.cz)[https://www.jack.cz] project.
+Validation library with descriptive error messages.
+
+## Classes
+
+### EmailValidator
+
+```
+import { EmailValidator } from 'vlib';
+```
+
+###
+
+```
+import { PhoneNumberValidator } from 'vlib';
+```

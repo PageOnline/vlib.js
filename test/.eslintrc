@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-bitwise": "off"
+  },
+  "globals": {
+    "describe": true,
+    "it": true
+  }
+}
