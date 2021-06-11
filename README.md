@@ -2,7 +2,7 @@
 
 Validation library with descriptive error messages.
 
-## Classes
+## Classes
 
 ### EmailValidator
 
